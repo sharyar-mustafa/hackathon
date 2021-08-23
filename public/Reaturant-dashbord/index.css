@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* nav bar  */
+nav{
+    display: flex;
+    color:rgb(19, 19, 19);
+    background-color: #ffff(255, 255, 255);
+    margin-b900m: 5%;
+
+}
+
+.logo{
+    width: 120px;
+    height: 70px;
+}
+
+.nav-h1{
+    padding-left: 8%;
+}
+
+
+/********** Nav bar end **********/
+
+
+
+/* ********** slider-section************/
+.slider-section{
+    height: 600px;
+}
+#res3{
+    height: 100%;
+}
+
+/*********** slider-section End************* */
+
+/*  */
+.card-heding{
+    margin-top: 240px;
+    font-size: 60px;
+}
+/*  */
+
+/***** Card Section  Start *******/
+.card{
+    margin-top: 2%;
+    margin-b900m: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/****** CARD Section End *******/
+
+
+
+
+
+
+/* footer */
+
+.hr{
+    margin: 0%;
+}
+
+.footer-s1{
+    display: flex;
+    background-color:#26272b;
+    color: white;
+}
+#p-text{
+    width: 240px;
+}
+.footer-contact{
+    margin: auto;
+}
+.footer-contact>ul>li{
+    list-style: none;
+    padding-top: 1px;
+}
+#social-h1{
+    padding-b900m: 50px;
+}
+
+.footer-s2{
+
+    text-align: center;
+    font-size: 25px;
+    background-color:#26272b;
+    color: #ffff;
+
+
+}
+#s2-p{
+    margin: 0%;
+}
+/* footer end *
+
+
+
+
+
+/************** Media Query Start********** */
+@media only screen and (max-width: 500px){
+
+    /* nav bar  */
+    .input-div{
+        display: none;
+    }
+    .join-nav-div{
+        display: none;
+    }
+
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    nav{
+        width: 100%;
+    }
+    /* nav bar end */
+    .card{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+    .footer-s1-div1{
+        display: none;
+    }
+
+}

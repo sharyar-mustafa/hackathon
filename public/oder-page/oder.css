@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* nav bar  */
+nav{
+    display: flex;
+    color:rgb(19, 19, 19);
+    background-color: #ffff(255, 255, 255);
+
+}
+.input-div{
+    display: flex;
+    align-items: center;
+    width: 65%;
+    justify-content: center;
+}
+#serch-bar{
+    width: 70%;
+    padding: 3px;
+    border-start-start-radius: 66px;
+    border-end-start-radius: 56px;
+   
+}
+#serch-button{
+    border: none;
+    background-color: #ffff;
+
+}
+.logo{
+    width: 120px;
+    height: 70px;
+}
+.nav-ul{
+    display: flex;
+   list-style: none;
+}
+.nav-ul>li{
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#shopping-logo{
+    width: 20px;
+    height:20px ;
+
+
+}.join-nav-div{
+   background-color: rgba(255, 192, 203, 0.205);
+    color: #141414;
+    font-size: 13px;
+    line-height: 14px;
+    letter-spacing: .05em;
+    font-weight: 400;
+    text-transform: uppercase;
+   
+    
+}
+.join-nav-div>ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+}
+.join-nav-div>ul>li{
+    padding: 10px;
+    margin: 10px;
+}
+a{
+    padding-left: 20px;
+}
+/********** Nav bar end **********/
+
+
+/* hedding section */
+.hedding-section{
+    height: 400px;
+    background-image:url(../oder-page/pic/bg.jpg) ;
+    width: 100%;
+    background-color: black;
+}
+.h1-div{
+    padding-top: 15%;
+    width: 100%;
+}
+.h1-div>h1{
+    font-weight: 500;
+    line-height: 1.4;
+    color: rgb(49, 49, 49);
+    font-size: 4rem;
+
+}
+.p-div>p{
+    font-weight: 500;
+    color: rgb(49, 49, 49);
+    font-size: 20px;
+
+}
+
+
+/*  */
+.card-heding{
+    margin-top: 40px;
+    font-size: 60px;
+}
+/*  */
+
+/***** Card Section  Start *******/
+.card{
+    margin-top: 2%;
+    margin-b900m: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cardsection{
+    margin-top: 2%;
+    margin-b900m: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+/****** CARD Section End *******/
